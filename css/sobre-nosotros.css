@@ -18,14 +18,14 @@
   margin-bottom: 1rem;
 }
 
+.sobre_nosotros__texto--destacado {
+  color: var(--fuente-ceniza-oscuro);
+  font-weight: 700;
+}
+
 .sobre_nosotros__plataformas {
   display: flex;
   justify-content: space-evenly;
   flex-wrap: wrap;
   margin-bottom: 1rem;
-}
-
-.sobre_nosotros__texto--destacado {
-  color: var(--fuente-ceniza-oscuro);
-  font-weight: 700;
 }
