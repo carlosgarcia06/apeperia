@@ -22,19 +22,23 @@
   </head>
   <body>
     <header class="head container">
-      <img
-        class="head__logo"
-        src="./img/logo-apeperia.svg"
-        alt="Logo de Apeperia"
-      />
+      <a href="./">
+        <img
+          class="head__logo"
+          src="./img/logo-apeperia.svg"
+          alt="Logo de Apeperia"
+        />
+      </a>
       <nav class="head__navegacion">
         <ul>
-          <li class="head__enlace"><a href="#">Sobre</a></li>
-          <li class="head__enlace"><a href="#">Planes</a></li>
+          <li class="head__enlace"><a href="#nosotros">Sobre Nosotros</a></li>
+          <li class="head__enlace"><a href="#planes">Planes</a></li>
           <li class="head__enlace"><a href="#">Blog</a></li>
-          <li class="head__enlace"><a href="#">Destacados</a></li>
-          <li class="head__enlace"><a href="#">Institucional</a></li>
-          <li class="head__enlace"><a href="#">Contacto</a></li>
+          <li class="head__enlace"><a href="#destacados">Destacados</a></li>
+          <li class="head__enlace">
+            <a href="#institucional">Institucional</a>
+          </li>
+          <li class="head__enlace"><a href="#contacto">Contacto</a></li>
         </ul>
       </nav>
     </header>
@@ -46,10 +50,10 @@
           Apeperia es una empresa emergente con una manera inovadora de comprar
           y crear aplicaciones móviles y web.
         </p>
-        <a class="llamada__boton boton" href="#">Conozca los planes</a>
+        <a class="llamada__boton boton" href="#planes">Conozca los planes</a>
       </section>
 
-      <section class="destacados container">
+      <section class="destacados container" id="destacados">
         <h2 class="destacados__titulo">Destacados</h2>
         <a href="#">
           <figure class="destacados__panel">
@@ -74,7 +78,7 @@
               >¿Trabajas con fotografía? Conozca esos consejos</figC
             >
           </figure>
-          <a href="" class="destacados__boton boton"
+          <a href="mailto:contato@apeperia.com" class="destacados__boton boton"
             >Recibir destacados por correo</a
           >
         </a>
@@ -106,7 +110,7 @@
         </ul>
       </section>
 
-      <section class="sobre_nosotros container">
+      <section class="sobre_nosotros container" id="nosotros">
         <div class="sobre_nosotros__contenido">
           <h2 class="sobre_nosotros__titulo">Sobre nosotros</h2>
           <p class="sobre_nosotros__texto">
@@ -141,7 +145,7 @@
         />
       </section>
 
-      <section class="planes container">
+      <section class="planes container" id="planes">
         <h2 class="planes__titulo">Planes</h2>
         <ul class="planes__tarjetas">
           <li class="tarjetas tarjetas--start">
@@ -184,13 +188,15 @@
         </ul>
       </section>
 
-      <section class="contacto container">
+      <section class="contacto container" id="contacto">
         <h2 class="contacto__titulo">Contacto</h2>
         <p>Entre en contacto con nosotros</p>
-        <a href="#" class="contacto__boton boton">Entre en contacto</a>
+        <a href="mailto:contato@apeperia.com" class="contacto__boton boton"
+          >Entre en contacto</a
+        >
       </section>
 
-      <section class="institucional container">
+      <section class="institucional container" id="institucional">
         <h2 class="institucional__titulo">Institucional</h2>
         <div class="institucional__contenido">
           <div class="institucional__informaciones">
@@ -244,12 +250,14 @@
         </ul>
         <nav>
           <ul class="footer__navegacion">
-            <li class="footer__enlace"><a href="#">Sobre</a></li>
-            <li class="footer__enlace"><a href="#">Planes</a></li>
+            <li class="footer__enlace"><a href="#nosotros">Sobre</a></li>
+            <li class="footer__enlace"><a href="#planes">Planes</a></li>
             <li class="footer__enlace"><a href="#">Blog</a></li>
-            <li class="footer__enlace"><a href="#">Destacados</a></li>
-            <li class="footer__enlace"><a href="#">Institucional</a></li>
-            <li class="footer__enlace"><a href="#">Contacto</a></li>
+            <li class="footer__enlace"><a href="#destacados">Destacados</a></li>
+            <li class="footer__enlace">
+              <a href="#institucional">Institucional</a>
+            </li>
+            <li class="footer__enlace"><a href="#contacto">Contacto</a></li>
           </ul>
         </nav>
       </footer>
